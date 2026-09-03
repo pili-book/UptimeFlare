@@ -67,7 +67,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://example.com',
       timeout: 5000,
     },
-  ],
+  ]
   // [Optional] Notification settings
   notification: {
     // [Optional] Notification webhook settings, if not specified, no notification will be sent
