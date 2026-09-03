@@ -23,12 +23,12 @@ const workerConfig: WorkerConfig = {
     
     {
       id: 'test_tcp_monitor',
-      name: 'TCP Monitor',
+      name: 'Example TCP Monitor',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'cyht.eu.org:81',
-      tooltip: 'wuming',
+      target: '1.2.3.4:22',
+      tooltip: 'My production server SSH',
       statusPageLink: 'https://example.com',
       timeout: 5000,
     },
