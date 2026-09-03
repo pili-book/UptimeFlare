@@ -20,7 +20,7 @@ const workerConfig: WorkerConfig = {
   // Define all your monitors here
   monitors: [
     
-    Example TCP Monitor
+    
     {
       id: 'test_tcp_monitor',
       name: 'TCP Monitor',
@@ -31,7 +31,7 @@ const workerConfig: WorkerConfig = {
       tooltip: 'wuming',
       statusPageLink: 'https://example.com',
       timeout: 5000,
-    }
+    },
   ]
   // [Optional] Notification settings
   notification: {
